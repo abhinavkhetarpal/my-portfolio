@@ -3263,6 +3263,19 @@ input, select, textarea {
 
 	@media screen and (max-width: 1140px) {
 
+		#footer {
+			
+			color: rgba(255, 255, 255, 0.75);
+			text-align: center;
+			background: rgba(0, 0, 0, 0.6) url("images/ottawa.jpg");
+			background-attachment: fixed;
+			background-size: auto;
+			background-position: top left;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			background-blend-mode: darken;
+		}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3543,7 +3556,8 @@ input, select, textarea {
 			background-size: 100% 100% !important;
 			background-blend-mode: darken;			
 		} */
-		#header {
+		
+		/* #header {
 			
 			background-color: #4686a0;
 			color: rgba(255, 255, 255, 0.75);
@@ -3563,5 +3577,14 @@ input, select, textarea {
 			background-position: top left,						center center,					center center;
 			background-size: auto,							cover,							cover;
 			text-align: center;
+		} */
+
+		#header{
+			background: rgba(0, 0, 0, 0.7) url("images/mobilebg2.jpg")!important;
+			background-attachment: fixed;
+			background-position: 0 0;
+			background-repeat: no-repeat!important;
+			background-size: cover !important;
+			background-blend-mode: darken;			
 		}
 	}
