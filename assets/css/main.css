@@ -3536,7 +3536,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		#header{
-			background: rgba(0, 0, 0, 0.75) url("images/bg-mobile.webp")!important;
+			background: rgba(0, 0, 0, 0.80) url("images/bg-mobile.webp")!important;
 			background-attachment: fixed;
 			background-position: 0 0;
 			background-repeat: no-repeat!important;
