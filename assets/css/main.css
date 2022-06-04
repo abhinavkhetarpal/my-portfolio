@@ -3450,6 +3450,11 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		#start{
+			margin-bottom: 3em;
+			padding: 0 1em;
+		}
+
 		/* Button */
 
 			input[type="submit"],
