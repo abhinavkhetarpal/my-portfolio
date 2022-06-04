@@ -1263,6 +1263,7 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 4em;
 						}
+			
 
 		}
 
@@ -3331,6 +3332,10 @@ input, select, textarea {
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+		
+		/* #left{
+			text-align:left!important;
+		} */
 
 		/* List */
 
@@ -3580,7 +3585,7 @@ input, select, textarea {
 		} */
 
 		#header{
-			background: rgba(0, 0, 0, 0.7) url("images/mobilebg2.jpg")!important;
+			background: rgba(0, 0, 0, 0.7) url("images/mobilebg3.jpg")!important;
 			background-attachment: fixed;
 			background-position: 0 0;
 			background-repeat: no-repeat!important;
