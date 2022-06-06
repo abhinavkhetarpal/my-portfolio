@@ -3129,7 +3129,7 @@ input, select, textarea {
 		background-size: auto,							cover,							cover; */
 		text-align: center;
 		background: rgba(0, 0, 0, 0.6) url("images/ottawa.gif"); 
-		background-attachment: fixed;
+		/* background-attachment: fixed; */
 		background-size: auto;
 		background-position: top left;
 		background-repeat: no-repeat;
