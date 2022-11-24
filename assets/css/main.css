@@ -2389,7 +2389,8 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
-			box-shadow: 0em 0.05em 0.15em 0 rgba(0, 0, 0, 0.25);
+			box-shadow: 0.1em 0.05em 0.50em 0 rgba(0, 0, 0, 0.25);
+			padding-right: 0.75em;
 		}
 
 			.image.fit img {
@@ -3332,6 +3333,11 @@ input, select, textarea {
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+
+		.image.fit{
+			box-shadow: 0.5em 0.25em 1.5em 0.10em rgba(0, 0, 0, 0.25);
+			padding-right: 1.5em;
+		}
 		
 		/* #left{
 			text-align:left!important;
@@ -3384,6 +3390,10 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
+
+		.image.fit {
+			padding-right: 0.75em;
+		}
 
 		/* Basic */
 
