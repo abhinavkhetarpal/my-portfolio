@@ -2917,22 +2917,15 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		/* background-color: #4686a0; */
+		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
-		/* background-attachment: fixed,							fixed,							fixed; */
-		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
-		/* background-position: top left,						center center,					center center; */
-		/* background-size: auto,							cover,							cover; */
+		background-attachment: fixed,							fixed,							fixed;
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-position: top left,						center center,					center center;
+		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
-		text-align: center;
-		background: rgba(0, 0, 0, 0.6) url("images/view-of-parliament-hill-from-major-hill-s-park--ottawa.webp");
-		background-attachment: fixed;
-		background-size: auto;
-		background-position: top left;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-blend-mode: darken;		
+		text-align: center;	
 		
 	}
 
@@ -3124,18 +3117,11 @@ input, select, textarea {
 		padding: 6em 0 6em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
-		/* background-attachment: fixed,							fixed,							fixed;
+		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover; */
+		background-size: auto,							cover,							cover;
 		text-align: center;
-		background: rgba(0, 0, 0, 0.6) url("images/ottawa.webp"); 
-		background-attachment: fixed;
-		background-size: auto;
-		background-position: top left;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-blend-mode: darken;
 	}
 
 		#footer a {
@@ -3264,19 +3250,6 @@ input, select, textarea {
 /* Large */
 
 	@media screen and (max-width: 1140px) {
-
-		#footer {
-			
-			color: rgba(255, 255, 255, 0.75);
-			text-align: center;
-			background: rgba(0, 0, 0, 0.6) url("images/ottawa.webp");
-			background-attachment: fixed;
-			background-size: auto;
-			background-position: top left;
-			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			background-blend-mode: darken;
-		}
 
 		/* Basic */
 
@@ -3563,16 +3536,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		/* #header{
-			background: rgba(0, 0, 0, 0.80) url("images/bg-mobile.webp")!important;
-			background-attachment: fixed;
-			background-position: 0 0;
-			background-repeat: no-repeat!important;
-			background-size: 100% 100% !important;
-			background-blend-mode: darken;			
-		} */
-		
-		/* #header {
+		#header {
 			
 			background-color: #4686a0;
 			color: rgba(255, 255, 255, 0.75);
@@ -3592,14 +3556,5 @@ input, select, textarea {
 			background-position: top left,						center center,					center center;
 			background-size: auto,							cover,							cover;
 			text-align: center;
-		} */
-
-		#header{
-			background: rgba(0, 0, 0, 0.7) url("images/mobilebg3.jpg")!important;
-			background-attachment: fixed;
-			background-position: 0 0;
-			background-repeat: no-repeat!important;
-			background-size: cover !important;
-			background-blend-mode: darken;			
 		}
 	}
