@@ -2925,7 +2925,7 @@ input, select, textarea {
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
-		text-align: center;	
+		text-align: center;
 		
 	}
 
@@ -3057,7 +3057,7 @@ input, select, textarea {
 			opacity: 1;
 			position: relative;
 			z-index: 1;
-			margin: 7em 0em
+			margin: 0em 0em
 		}
 
 			#header .inner .actions {
