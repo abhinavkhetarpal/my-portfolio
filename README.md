@@ -1,3 +1,3 @@
 # My portfolio website
 
-abhinavkhetarpal.com
+https://abhinavkhetarpal.com
